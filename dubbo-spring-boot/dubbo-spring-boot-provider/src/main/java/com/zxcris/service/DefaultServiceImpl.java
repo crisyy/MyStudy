@@ -4,8 +4,8 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.zxcris.bean.DefaultBean;
 
 @Service
-public class DefaultServiceImpl implements DefaultApiService{
- 
+public class DefaultServiceImpl implements DefaultApiService {
+
     public String defaultMethod(String str) {
         DefaultBean defaultBean = new DefaultBean();
         defaultBean.setStr(str);
